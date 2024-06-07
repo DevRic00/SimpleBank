@@ -10,7 +10,7 @@
 // DIFFERENT DATA! Contains movement dates, currency and locale
 
 const account1 = {
-  owner: 'Jonas Schmedtmann',
+  owner: 'Eric Peter Manalili',
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
   interestRate: 1.2, // %
   pin: 1111,
@@ -25,12 +25,12 @@ const account1 = {
     '2020-07-28T23:36:17.929Z',
     '2020-08-01T10:51:36.790Z',
   ],
-  currency: 'EUR',
-  locale: 'pt-PT', // de-DE
+  currency: 'PHP', //display currency Philippine Peso
+  locale: 'en-PH', // english-Philippines locale to adjust date and time.
 };
 
 const account2 = {
-  owner: 'Jessica Davis',
+  owner: 'Jadezel Neron',
   movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
   interestRate: 1.5,
   pin: 2222,
@@ -45,8 +45,8 @@ const account2 = {
     '2020-06-25T18:49:59.371Z',
     '2020-07-26T12:01:20.894Z',
   ],
-  currency: 'USD',
-  locale: 'en-US',
+  currency: 'USD', //display currency US dollar
+  locale: 'en-US', // english(United States) locale to adjust date and time.
 };
 
 const accounts = [account1, account2];
